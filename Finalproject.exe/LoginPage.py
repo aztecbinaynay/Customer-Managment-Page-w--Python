@@ -116,7 +116,7 @@ class loginUser(QWidget):
     code to create database from the start of loginpage.
     It is already expected that the database will exist
     so one will just need to connect to it
-      
+ 
 db = sql3.connect('appDB.db')
 try:
     cur = db.cursor()
@@ -129,7 +129,6 @@ except:
      print("error in Table creation")
      db.rollback()
 '''
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     main = loginUser()

@@ -12,3 +12,8 @@
  7.) ShowCustomer.py
 
 The file named <appDB.db> is the database file used in the project. The databse system was SQlite.
+
+NOTE *** It seems you need to take out the appDb.db and customerDB.db outside the Finalproject.exe and place it in the environment just outisde the said folder and within
+the same environment as .vscode 
+
+if the databases are already outside, then you don't need to do anything else. 

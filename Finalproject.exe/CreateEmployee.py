@@ -183,10 +183,10 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     main = registerEmployee()
     sys.exit(app.exec_())
-
+'''
 
 # Code below creates the database for the customers
-
+'''
 cb = sql3.connect('customerDB.db')
 try:
     cur = cb.cursor()
